@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                 if (extraKey != null) {
 
                     String returningString = data.getStringExtra(extraKey);
-                    Toast.makeText(this, "Povratak u MA: " + returningString, Toast.LENGTH_LONG).show();
+                    Toast.makeText(this, "Back to MA: " + returningString, Toast.LENGTH_LONG).show();
                 }
     }
 }
