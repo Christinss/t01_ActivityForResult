@@ -31,14 +31,14 @@ public class SecondActivity extends AppCompatActivity {
         bOk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                finish(EXTRA_OK, RESULT_OK, "Korisnik je obavio registraciju.");
+                finish(EXTRA_OK, RESULT_OK, "User successfully registered.");
             }
         });
 
         bCancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                finish(EXTRA_CANCEL, RESULT_CANCELED, "Korisnik je odustao.");
+                finish(EXTRA_CANCEL, RESULT_CANCELED, "User canceled registration.");
             }
         });
 
