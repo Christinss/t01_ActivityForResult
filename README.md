@@ -1,5 +1,5 @@
-# t02_ActivityForResult
+# ActivityForResult
 
-2 Activities, First Activity contains Start button 
-which sends intent to open Second Activity with 2 buttons Cancel and Ok
-each button has a Toast message describing actions
+2 Activities.
+First Activity contains Button "Start" which sends intent to open Second Activity with 2 Buttons "Cancel" and "Ok.
+Each Button has a Toast message describing actions.
